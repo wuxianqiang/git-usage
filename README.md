@@ -8,3 +8,5 @@ git实战技巧
 * 列表一
 * 列表二
 <code>这是代码标记</code>22
+<br>
+<pre><code>代码</code></pre>
