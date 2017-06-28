@@ -16,5 +16,5 @@ git实战技巧
 <br>
 ***
 嘎嘎嘎
-<br
-[百度](http://www.appinn.com/markdown/)
+<br>
+[blog](http://blog.csdn.net/wu_xianqiang)
