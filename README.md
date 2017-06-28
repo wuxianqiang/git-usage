@@ -17,4 +17,4 @@ git实战技巧
 ***
 嘎嘎嘎
 <br
-[百度](http://www.appinn.com/markdown/) 连接
+[百度](http://www.appinn.com/markdown/)
