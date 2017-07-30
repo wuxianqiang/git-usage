@@ -11,3 +11,15 @@
 
 4. 推送本地分支
 > git push origin 分支名
+
+5. 查看远程分支
+> git branch -a
+
+6. 查看本地分支
+> git branch
+
+7. 新建本地分支
+> git branch 分支名
+
+8. 切换本地分支
+> git checkout 分支名
