@@ -1,4 +1,45 @@
 # git 使用说明
+初始化
+```
+git init
+```
+创建文件
+```
+touch i.js
+```
+提交暂存区
+```
+git add .
+```
+提交
+```
+git commit -m 第一次提交
+```
+编辑历史区
+```
+vi 1.js
+```
+再提交
+```
+git add commit -a -m 第二次提交
+```
+ 创建并切换分支
+```
+git checkout -b dev
+```
+在编辑
+```
+vi 1.js
+```
+提交到哪个分支就切换到哪个分支提交
+```
+git add commit -a -m 第三次提交
+```
+切换到master分支，然后合并分支
+```js
+git checkout master
+git merge dev
+```
 
 1. 删除远程分支
 > git push origin --delete 分支名
