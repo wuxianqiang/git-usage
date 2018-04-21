@@ -71,6 +71,27 @@ git merge dev
 10. 根据远程分支创建本地分支
 > git checkout -b 分支名 origin/分支名
 
+11. 使用上次的提交记录
+> git commit --amend
+
+```js
+i // 进入编辑模式
+ESC :wq // 保存并退出
+```
+
+没有及时拉下最新代码导致冲突的解决办法
+```js
+git pull --reabase origin master
+// 该完冲突后重新提交代码
+git add .
+// 重新提交不要写提交信息
+git rebase --continue
+// 退出
+git push origin wuxianqiang2 -f
+// 再次提交到远端需要强推
+```
+
+
 ## 最后
 
 ### 喜欢的小伙伴们请点一下右上脚star按钮:star:，就可以收藏这篇文章啦！，如果你有更好的前端知识需要和我一起分享，请点fork按钮，提交你的资料吧！如果想在第一时间获取我的更新，并且每次更新会有提醒，请点watch按钮。
