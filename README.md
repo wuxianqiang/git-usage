@@ -91,6 +91,12 @@ git push origin wuxianqiang2 -f
 // 再次提交到远端需要强推
 ```
 
+合并提交信息
+```js
+git rebase -i HEAD^^
+// 然后在需要合并提交信息的前面加s
+// 然后在需要保留提交信息的前面加#
+```
 
 ## 最后
 
