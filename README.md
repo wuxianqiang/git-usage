@@ -97,6 +97,24 @@ git rebase -i HEAD^^
 // 然后在需要合并提交信息的前面加s
 // 然后在需要保留提交信息的前面加#
 ```
+因为没有在合并之前拉下最新的代码，导致同时修改同一行，合并的时候会有代码冲突，需要执行如下操作
+1. 在你自己的分支上
+2. 拉取目标分支最新代码
+3. git pull --rebase origin master 
+```
+Administrator@Qiang MINGW64 /f/test/gittest/test (w                                                                              ··  uxianqiang_branch|REBASE 1/1) 
+```
+4. 查看冲突的文件
+5. git status
+6. 打开代码，解决冲突吧
+7. 提交代码
+8. git add .
+9. 退出rebase环境
+10. git rebase --continue
+```
+Administrator@Qiang MINGW64 /f/test/gittest/test (w                                                                                    uxianqiang_branch)
+```
+11. git push origin wuxianqiang_branch
 
 ## 最后
 
