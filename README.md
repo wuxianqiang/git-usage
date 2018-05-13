@@ -134,6 +134,12 @@ git rebase -i HEAD^^
 10. git rebase --continue
 11. git push origin wuxianqiang_branch
 ```
+git撤销本地所有未提交的更改
+```
+git clean -df
+git reset --hard
+```
+第一个命令只删除所有未跟踪的文件，如果文件已经被跟踪, 修改过的文件不会被回退。而第二个命令把跟踪的文件还原到前一个版本，对于未跟踪的文件(比如编译的临时文件)都不会被删除。
 
 ## 最后
 
