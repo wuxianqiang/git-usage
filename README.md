@@ -96,6 +96,10 @@ git checkout -b 分支名 origin/分支名
 ```
 git commit --amend
 ```
+12. 查看提交差异
+```
+git show 版本号
+```
 
 ```js
 i // 进入编辑模式
