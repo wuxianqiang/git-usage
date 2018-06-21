@@ -100,6 +100,10 @@ git commit --amend
 ```
 git show 版本号
 ```
+13. 撤销中间的某次提交，时候已经合并了代码，但是因为中间的某次出错要重新开发
+```
+git revert commit_id
+```
 
 ```js
 i // 进入编辑模式
