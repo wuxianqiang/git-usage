@@ -109,6 +109,16 @@ git revert commit_id
 i // 进入编辑模式
 ESC :wq // 保存并退出
 ```
+14. 关联远程分支提交代码
+```js
+git remote add origin git@github.com:wuxianqiang/sell.git
+git push -u origin master
+```
+15. 暂存代码
+```js
+git stash
+git stash pop
+```
 
 ### 解决冲突
 没有及时拉下最新代码导致冲突的解决办法
